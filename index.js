@@ -120,6 +120,4 @@ app.delete('/student/:id', function (req, res) {
 });
 
 //Starting the server
-app.listen(port, () => {
-  console.log("App is running on port " + port);
-});
+app.listen(port, () => console.log("App is running on port " + port) );
