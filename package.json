@@ -1,0 +1,17 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Assignment for tunica labs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "prithvi malusare",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^5.8.9",
+    "pug": "^2.0.0-rc.1"
+  }
+}

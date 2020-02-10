@@ -1,0 +1,29 @@
+extends layout
+
+block content
+    h1 #{title}
+    table
+        tr
+            th ID
+            th Name
+            th Age
+            th School
+            th Class
+            th Division
+            th Status
+            th Option
+        each student, i in students
+            tr
+                td 1
+                td= student.name
+                td= student.dob
+                td= student.school
+                td= student.class
+                td= student.division
+                td= student.status
+                td
+                    a(href="student/edit/" + student._id) Edit
+                    a.delete-student(href="#", data-id=student._id) Delete
+                
+            
+        
